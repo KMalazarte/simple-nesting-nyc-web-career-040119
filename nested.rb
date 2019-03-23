@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+require 'pry'
+>>>>>>> 34fc89aa418a390fe0c4798fc05827013df89ee2
 def hopper
 	programmer_hash = 
  		{
@@ -83,11 +87,18 @@ def adding_matz
           :languages => ["C"]
         }
      }
+<<<<<<< HEAD
 programmer_hash[:yukihiro_matsumoto]={
   :known_for => "Ruby",
   :languages => ["LISP", "C"]
 }
 programmer_hash
+=======
+programmer_hash[:yukihiro_matsumoto]=:known_for
+programmer_hash[:yukihiro_matsumoto]=:languages
+binding.pry
+    
+>>>>>>> 34fc89aa418a390fe0c4798fc05827013df89ee2
 end
 
 def changing_alan
